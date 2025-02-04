@@ -1,0 +1,121 @@
+.page-sdda {
+    position: relative;
+    padding: 11.99vw 0 14.59vw;
+    background: url(../assets/sdda-bg.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.page-sdda .item-all {
+    width: 56.28vw;
+    display: flex;
+    gap: 6.25vw;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.page-sdda .item-all a.item {
+    display: block;
+    width: calc(33.33% - 4.17vw);
+    position: relative;
+}
+
+.page-sdda a.item img.thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.page-sdda a.item:hover img.thumb {
+    transform: translateX(-4.69vw);
+}
+
+.page-sdda a.item .content {
+    padding: 0.10vw;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.page-sdda a.item:hover .content {
+    transform: translateX(4.69vw);
+}
+
+.page-sdda a.item .content img {
+    width: 100%;
+    height: auto;
+}
+
+.page-sdda a.item .content .txt {
+    position: absolute;
+    width: 11.20vw;
+    height: 6.77vw;
+    transform: rotate(90deg);
+    margin-right: 1.04vw;
+    padding: 0.52vw;
+}
+
+.page-sdda a.item .content .txt .en {
+    font-size: 2.19vw;
+    text-transform: uppercase;
+}
+
+.page-sdda a.item .content .txt .cn {
+    text-align: right;
+    font-size: 0.83vw;
+}
+
+
+.sdda-detail {
+    padding: 6.25vw 0 14.07vw;
+}
+
+.sdda-detail .sdda-back {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1.56vw;
+}
+
+.sdda-detail .sdda-back img {
+    width: 4.27vw;
+}
+
+.sdda-detail .sdda-back a:hover img {
+    transform: scale(1.1);
+}
+
+.sdda-detail .content-box {
+    width: 50.03vw;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.sdda-detail .content-box img.thumb {
+    width: 100%;
+    height: auto;
+}
+
+.sdda-detail .content-box .world-detail__title {
+    margin-top: 2.61vw;
+    font-size: 1.15vw;
+    color: white;
+    font-weight: 800;
+}
+
+.sdda-detail .content-box .world-detail__content {
+    margin-top: 1.56vw;
+    color: #ccc;
+    line-height: 1.5;
+    font-size: 0.78vw;
+    font-weight: bold;
+}

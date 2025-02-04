@@ -1,0 +1,153 @@
+.page-login {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 3.91vw);
+    min-height: 31.27vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-login > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .page-login .login-box {
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(0.26vw);
+    border-radius: 0.63vw;
+    padding: 1.67vw 2.08vw;
+    width: 20.45vw;
+    transition: all 0.3s ease;
+  }
+  
+  .page-login .login-box:hover {
+    background: #f3f3f3;
+  }
+  
+  .page-login .login-box .img {
+    text-align: center;
+    margin-bottom: 1.67vw;
+  }
+  
+  .page-login .login-box .img img {
+    height: 2.61vw;
+    margin: auto;
+  }
+  
+  .page-login .login-box .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25vw;
+  }
+  
+  .page-login .login-box .link a {
+    display: inline-flex;
+    text-decoration: none;
+    font-family:hongmengti, "MicrosoftJhengHei" sans-serif !important;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    height: 1.98vw;
+    font-size: 0.83vw;
+    margin-right: 3.75vw;
+    color: #494949;
+    position: relative;
+  }
+  
+  .page-login .login-box .link a.active {
+    color: #131314;
+  }
+  
+  .page-login .login-box .link a:last-child {
+    margin-right: 0;
+  }
+  
+  .page-login .login-box .link a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 1.67vw;
+    height: 0.16vw;
+    border-radius: 1.09vw;
+    background-color: #db9a45;
+  }
+  
+  .page-login .login-box form > input {
+    display: block;
+    width: 100%;
+    height: 2.19vw;
+    padding: 0 0.63vw;
+    border-radius: 1.30vw;
+    border: 2px solid #d0d1d4;
+    box-shadow: none !important;
+    margin-bottom: 0.63vw;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .page-login .login-box form > input:hover,
+  .page-login .login-box form > input:focus {
+    border-color: #db9a45;
+  }
+  
+  .page-login .login-box form input::placeholder {
+    color: #c1c1c1;
+  }
+  
+  .page-login .login-box form label {
+    display: flex;
+    align-items: center;
+    font-size: 0.68vw;
+    color: #666666;
+    font-weight: bold;
+  }
+  
+  .page-login .login-box form label input {
+    width: 0.73vw;
+    height: 0.73vw;
+    border: 2px solid #d0d1d4;
+    margin-right: 0.21vw;
+  }
+  
+  .page-login .login-box form label span {
+    color: #db9a45;
+  }
+  
+  .page-login .login-box form button {
+    width: 100%;
+    height: 2.19vw;
+    border-radius: 1.30vw;
+    background: #d0d1d4;
+    color: #666;
+    font-size: 0.83vw;
+    margin-top: 2.61vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .page-login .login-box form button:hover {
+    background: #db9a45;
+    color: black;
+  }
+  
+  .page-login .login-box .other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.83vw;
+    margin-top: 1.67vw;
+    border-top: 0.05vw solid #d0d1d4;
+    font-weight: bold;
+  }
+  
+  .page-login .login-box .other a {
+    font-size: 0.73vw;
+    color: #666666;
+  }

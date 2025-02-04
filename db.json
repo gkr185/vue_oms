@@ -1,0 +1,371 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "前端开发"
+    },
+    {
+      "id": "2",
+      "name": "后端开发"
+    },
+    {
+      "id": "3",
+      "name": "数据科学"
+    }
+  ],
+  "currentUser": null,
+  "role": null,
+  "users": [
+    {
+      "id": "1",
+      "username": "a",
+      "password": "a",
+      "role": "admin",
+      "phone": "1234567890",
+      "address": "管理员地址"
+    },
+    {
+      "id": "2",
+      "username": "1",
+      "password": "1",
+      "role": "user",
+      "phone": "1",
+      "address": "1"
+    },
+    {
+      "id": "3",
+      "username": "2",
+      "password": "12",
+      "role": "user",
+      "address": "123",
+      "phone": "123"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Vue.js 简介",
+      "categoryId": 1,
+      "duration": 120,
+      "image": "index-news1.png",
+      "description": "本课程将介绍 Vue.js 框架的基本理念和如何在项目中使用它。",
+      "isHot": true,
+      "price": 99
+    },
+    {
+      "id": "2",
+      "name": "深入理解 Vue 组件",
+      "categoryId": 1,
+      "duration": 180,
+      "image": "index-news2.png",
+      "description": "学习如何构建和管理 Vue 组件，包括属性传递、事件绑定和生命周期钩子。",
+      "isHot": true,
+      "price": 14900000000
+    },
+    {
+      "id": "6",
+      "name": "现代 JavaScript",
+      "categoryId": 1,
+      "duration": 200,
+      "image": "index-news3.png",
+      "description": "掌握现代 JavaScript 的核心内容和特性，提升前端开发能力。",
+      "isHot": false,
+      "price": 129
+    },
+    {
+      "id": "7",
+      "name": "CSS 效果特效制作",
+      "categoryId": 1,
+      "duration": 100,
+      "image": "index-news4.png",
+      "description": "学习 CSS 高级用法，制作酷炫的页面效果和动画特效。",
+      "isHot": false,
+      "price": 89
+    },
+    {
+      "id": "3",
+      "name": "Node.js 深入浅出",
+      "categoryId": 2,
+      "duration": 150,
+      "image": "index-news5.png",
+      "description": "掌握使用 Node.js 进行后端开发的核心概念。",
+      "isHot": false,
+      "price": 109
+    },
+    {
+      "id": "5",
+      "name": "RESTful API 集成",
+      "categoryId": 2,
+      "duration": 200,
+      "image": "index-news6.png",
+      "description": "学习如何设计和开发 RESTful API，并实现与前端的集成。",
+      "isHot": true,
+      "price": 149
+    },
+    {
+      "id": "8",
+      "name": "Express 框架快速入门",
+      "categoryId": 2,
+      "duration": 140,
+      "image": "index-news7.png",
+      "description": "了解如何使用 Express 框架快速搭建后端应用。",
+      "isHot": true,
+      "price": 119
+    },
+    {
+      "id": "9",
+      "name": "数据库设计与实现",
+      "categoryId": 2,
+      "duration": 210,
+      "image": "index-news8.png",
+      "description": "学习关系型数据库的设计原则和实现技巧。",
+      "isHot": false,
+      "price": 139
+    },
+    {
+      "id": "4",
+      "name": "数据分析入门",
+      "categoryId": 3,
+      "duration": 90,
+      "image": "index-news9.png",
+      "description": "通过本课程，学习如何收集、分析和展示数据。",
+      "isHot": false,
+      "price": 79
+    },
+    {
+      "id": "10",
+      "name": "机器学习基础",
+      "categoryId": 3,
+      "duration": 250,
+      "image": "index-news10.png",
+      "description": "探索机器学习的基本概念和实践案例。",
+      "isHot": true,
+      "price": 199
+    },
+    {
+      "id": "11",
+      "name": "Python 数据分析",
+      "categoryId": 3,
+      "duration": 180,
+      "image": "index-news11.png",
+      "description": "掌握使用 Python 进行基本数据分析的技巧。",
+      "isHot": false,
+      "price": 129
+    },
+    {
+      "id": "12",
+      "name": "大数据分析入门",
+      "categoryId": 3,
+      "duration": 360,
+      "image": "index-news12.png",
+      "description": "掌握大数据分析的基础知识和实用技巧。",
+      "isHot": false,
+      "price": 199
+    },
+    {
+      "id": "13",
+      "name": "机器学习与人工智能",
+      "categoryId": 2,
+      "duration": 360,
+      "image": "index-news13.png",
+      "description": "深入了解机器学习和人工智能的核心技术。",
+      "isHot": true,
+      "price": 399
+    },
+    {
+      "id": "14",
+      "name": "Python编程基础",
+      "categoryId": 1,
+      "duration": 260,
+      "image": "index-news14.png",
+      "description": "从零开始学习Python编程语言。",
+      "isHot": false,
+      "price": 99
+    },
+    {
+      "id": "15",
+      "name": "云计算与云存储",
+      "categoryId": 2,
+      "duration": 160,
+      "image": "index-news15.png",
+      "description": "探索云计算和云存储的最新发展。",
+      "isHot": true,
+      "price": 249
+    },
+    {
+      "id": "16",
+      "name": "网络安全与防御",
+      "categoryId": 3,
+      "duration": 220,
+      "image": "index-news16.png",
+      "description": "学习网络安全的防御策略和实践技巧。",
+      "isHot": false,
+      "price": 299
+    },
+    {
+      "id": "17",
+      "name": "移动应用开发",
+      "categoryId": 3,
+      "duration": 60,
+      "image": "index-news17.png",
+      "description": "掌握移动应用开发的核心技术和框架。",
+      "isHot": true,
+      "price": 249
+    },
+    {
+      "id": "18",
+      "name": "区块链技术与应用",
+      "categoryId": 3,
+      "duration": 800,
+      "image": "index-news18.png",
+      "description": "深入了解区块链技术及其在金融领域的应用。",
+      "isHot": false,
+      "price": 399
+    },
+    {
+      "id": "19",
+      "name": "前端开发框架React",
+      "categoryId": 2,
+      "duration": 120,
+      "image": "index-news19.png",
+      "description": "学习React框架，提升前端开发效率。",
+      "isHot": true,
+      "price": 199
+    },
+    {
+      "id": "20",
+      "name": "Java企业级开发",
+      "categoryId": 3,
+      "duration": 360,
+      "image": "index-news20.png",
+      "description": "掌握Java企业级应用开发的高级技巧。",
+      "isHot": false,
+      "price": 299
+    },
+    {
+      "id": "21",
+      "name": "深度学习与神经网络",
+      "categoryId": 1,
+      "duration": 360,
+      "image": "index-news21.png",
+      "description": "探索深度学习和神经网络的前沿技术。",
+      "isHot": true,
+      "price": 399
+    },
+    {
+      "id": "22",
+      "name": "数据科学与可视化",
+      "categoryId": 1,
+      "duration": 360,
+      "image": "index-news22.png",
+      "description": "学习如何将数据科学应用于数据可视化。",
+      "isHot": false,
+      "price": 249
+    },
+    {
+      "id": "23",
+      "name": "全栈开发技术栈",
+      "categoryId": 2,
+      "duration": 210,
+      "image": "index-news23.png",
+      "description": "掌握全栈开发所需的技术栈和工具。",
+      "isHot": true,
+      "price": 299
+    },
+    {
+      "id": "24",
+      "name": "物联网基础与应用",
+      "categoryId": 3,
+      "duration": 560,
+      "image": "index-news24.png",
+      "description": "了解物联网的基础知识和实际应用案例。",
+      "isHot": false,
+      "price": 199
+    },
+    {
+      "id": "25",
+      "name": "软件测试与质量保证",
+      "categoryId": 3,
+      "duration": 430,
+      "image": "index-news25.png",
+      "description": "学习软件测试的方法和质量保证的最佳实践。",
+      "isHot": true,
+      "price": 249
+    },
+    {
+      "id": "26",
+      "name": "敏捷开发与项目管理",
+      "categoryId": 3,
+      "duration": 110,
+      "image": "index-news26.png",
+      "description": "掌握敏捷开发方法和项目管理技巧。",
+      "isHot": false,
+      "price": 299
+    },
+    {
+      "id": "27",
+      "name": "用户体验设计与交互",
+      "categoryId": 2,
+      "duration": 360,
+      "image": "index-news27.png",
+      "description": "提升用户体验设计和交互设计的能力。",
+      "isHot": true,
+      "price": 199
+    },
+    {
+      "id": "28",
+      "name": "数据库管理与优化",
+      "categoryId": 1,
+      "duration": 340,
+      "image": "index-news28.png",
+      "description": "学习数据库管理的高级技巧和性能优化。",
+      "isHot": false,
+      "price": 249
+    },
+    {
+      "id": "29",
+      "name": "系统架构设计",
+      "categoryId": 3,
+      "duration": 710,
+      "image": "index-news29.png",
+      "description": "深入了解系统架构设计的理论和实践。",
+      "isHot": true,
+      "price": 299
+    },
+    {
+      "id": "30",
+      "name": "API设计与开发",
+      "categoryId": 2,
+      "duration": 120,
+      "image": "index-news30.png",
+      "description": "掌握API设计的最佳实践和开发技巧。",
+      "isHot": false,
+      "price": 199
+    },
+    {
+      "id": "0b87",
+      "name": "1",
+      "categoryId": "1",
+      "duration": "1",
+      "image": "1",
+      "description": "1",
+      "isHot": false,
+      "price": "1"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "courseName": "Vue.js 简介",
+      "quantity": 2,
+      "totalPrice": 198
+    },
+    {
+      "id": "2",
+      "courseName": "Node.js 深入浅出",
+      "quantity": 1,
+      "totalPrice": 109
+    }
+  ],
+  "favorites": []
+}
